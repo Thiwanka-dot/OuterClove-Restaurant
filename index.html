@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/restaurant.png">
+    <title>Outer Clove Restaurant</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Google Font - Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <!--Swiper CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <a href="#" class="logo"><img src="Images/restaurant.png" alt="reslogo">OuterClove.</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.php">About</a>
+            <a href="menu.php">Menu</a>
+            <a href="review.html">Review</a>
+            <a href="reservation.php">Reservation</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <a href="add.php" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-sign-in-alt"></a>
+        </div>
+        <div class="profile">
+            <h1>User Account</h1>
+            <p class="account"><a href="login.php">login</a> or <a href="register.php">register</a></p>
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Offers</span>
+                        <h3>Spicy Veg Pizza</h3>
+                        <p>This pizza is a delightful blend of vegetables, crispy crust, 
+                            and colorful toppings, making it suitable for both pizza enthusiasts and vegetarians.</p>
+                    </div>
+                    <div class="image">
+                        <img src="Images/Pizza-3.jpg" alt="Fried Rice">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Offers</span>
+                        <h3>Mixed Fried Rice</h3>
+                        <p>The dish is a satisfying blend of jasmine rice, vegetables, chicken, 
+                            and shrimp, seasoned with spices and soy sauce.</p>
+                    </div>
+                    <div class="image">
+                        <img src="Images/Mixed-Fried-Rice-1.jpg" alt="Mixed Fried Rice">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Offers</span>
+                        <h3>Plain Cheese Pizza</h3>
+                        <p>This pizza, a classic delight with melty mozzarella and rich tomato 
+                            sauce, is a timeless choice for pizza perfection enthusiasts.</p>
+                    </div>
+                    <div class="image">
+                        <img src="Images/Pizza-1.jpg" alt="Pizza 1">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--Dishes-->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading"> popular dishes </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/Burger-3.jpg" alt="dish-1">
+                <h3>BBQ Burger</h3>
+                <span>Rs 1300</span>
+            </div>
+            <div class="box">
+                <img src="Images/Burger-2.png" alt="dish-2">
+                <h3>Meaty Cheese Burger</h3>
+                <span>Rs 1500</span>
+            </div>
+            <div class="box">
+                <img src="Images/Burger-1.png" alt="dish-3">
+                <h3>Chicked Cheese Burger</h3>
+                <span>Rs 1500</span>
+            </div>
+            <div class="box">
+                <img src="Images/Drink-2.jpg" alt="dish-3">
+                <h3>Soft Orange Drink</h3>
+                <span>Rs 6300</span>
+            </div><div class="box">
+                <img src="Images/Fried-Rice-2.jpg" alt="dish-3">
+                <h3>Fried Rice</h3>
+                <span>Rs 2800</span>
+            </div><div class="box">
+                <img src="Images/Pizza-1.jpg" alt="dish-3">
+                <h3>Plain Cheese Pizza</h3>
+                <span>Rs 1500</span>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html">home</a>
+                <a href="about.php">about</a>
+                <a href="menu.php">menu</a>
+                <a href="review.html">review</a>
+                <a href="reservation.php">reservation</a>
+            </div>
+            <div class="box">
+                <h3>contact</h3>
+                <a href="#">094-234-4568</a>
+                <a href="#">094-234-4567</a>
+                <a href="#">outclove@gmail.com</a>
+                <a href="#">personal@gmail.com</a>
+                <a href="#">outclove, sri lanka</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <div class="credit">copyright &copy; 2023 by <span>Mr. Thiwanka Dissanayake</span>. all rights reserved.</div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

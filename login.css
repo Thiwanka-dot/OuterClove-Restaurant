@@ -1,0 +1,110 @@
+:root{
+    --purple: #6F4C5B;
+    --black: #192a56;
+    --light-color: #666;
+    --box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all, 0.3s linear;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F5E8C7;
+}
+
+.container{
+    margin: 1.4rem 0;
+    text-align: center;
+    background-color: #fff;
+    border: 0.3rem solid var(--purple);
+    padding: 2rem;
+    border-radius: 3rem;
+    color: #192a56;
+    width: 30rem;
+}
+
+.container img{
+    height: 120px;
+    width: 120px;
+}
+
+.container h3{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+}
+
+.container form{
+    border: 0.15rem solid var(--light-color);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.container form input{
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    border: 0.2rem solid rgba(0, 0, 0, .1);
+    font-size: 16px;
+}
+
+.container form input[type="submit"]{
+    color: #fff;
+    background-color: var(--purple);
+    font-size: 18px;
+}
+
+.container form input[type="submit"]:hover{
+    letter-spacing: 0.3rem;
+}
+
+.container form p{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.container form a{
+    text-decoration: none;
+    color: #ff0000;
+}
+
+@media (max-width: 990px) {
+    .container{
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .container{
+        margin: 0.5rem;
+    }
+
+    .container img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .container h3{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+    
+    .container form{
+        padding: 1rem;
+    }
+}
